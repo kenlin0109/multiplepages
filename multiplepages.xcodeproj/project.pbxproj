@@ -13,6 +13,8 @@
 		A1E7B74D2A616AF80036BBC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B74B2A616AF80036BBC1 /* Main.storyboard */; };
 		A1E7B74F2A616AFA0036BBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B74E2A616AFA0036BBC1 /* Assets.xcassets */; };
 		A1E7B7522A616AFA0036BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B7502A616AFA0036BBC1 /* LaunchScreen.storyboard */; };
+		A1E7B75A2A616B750036BBC1 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B7592A616B750036BBC1 /* Page2ViewController.swift */; };
+		A1E7B75C2A616E2F0036BBC1 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B75B2A616E2F0036BBC1 /* Page3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A1E7B74E2A616AFA0036BBC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E7B7512A616AFA0036BBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1E7B7532A616AFA0036BBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E7B7592A616B750036BBC1 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		A1E7B75B2A616E2F0036BBC1 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		A1E7B7392A616AF80036BBC1 = {
 			isa = PBXGroup;
 			children = (
+				A1E7B75B2A616E2F0036BBC1 /* Page3ViewController.swift */,
 				A1E7B7442A616AF80036BBC1 /* multiplepages */,
 				A1E7B7432A616AF80036BBC1 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				A1E7B7472A616AF80036BBC1 /* SceneDelegate.swift */,
 				A1E7B7492A616AF80036BBC1 /* ViewController.swift */,
 				A1E7B74B2A616AF80036BBC1 /* Main.storyboard */,
+				A1E7B7592A616B750036BBC1 /* Page2ViewController.swift */,
 				A1E7B74E2A616AFA0036BBC1 /* Assets.xcassets */,
 				A1E7B7502A616AFA0036BBC1 /* LaunchScreen.storyboard */,
 				A1E7B7532A616AFA0036BBC1 /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				A1E7B74A2A616AF80036BBC1 /* ViewController.swift in Sources */,
 				A1E7B7462A616AF80036BBC1 /* AppDelegate.swift in Sources */,
+				A1E7B75A2A616B750036BBC1 /* Page2ViewController.swift in Sources */,
+				A1E7B75C2A616E2F0036BBC1 /* Page3ViewController.swift in Sources */,
 				A1E7B7482A616AF80036BBC1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
